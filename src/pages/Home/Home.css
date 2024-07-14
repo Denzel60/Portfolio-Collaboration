@@ -70,3 +70,45 @@ height: fit-content;
 .rect p{
     color:#70C7D1;
 }
+
+.featured-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    border-bottom: 2px solid rgb(182, 181, 181);
+    padding: 1em 0;
+}
+.feature .feature-img img{
+    border-radius: 0.5em;
+}
+.feature-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 2em;
+}
+.feature-button-title{
+    display: flex;
+    justify-content: flex-start;
+}
+.feature-content .feature-button-title button{
+    border-radius: 2em;
+    background-color: rgb(2, 2, 44);
+    color: white;
+    padding: 0em 1em;
+    font-weight: 900;
+    font-size: 15px;
+}
+.feature-content .feature-button-title p{
+    margin: 0 2em;
+    color: rgb(4, 100, 133);
+}
