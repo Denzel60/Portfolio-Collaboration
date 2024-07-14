@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './components/Header.jsx/Header'
+import Header from './components/Header/Header'
 import Home from './pages/Home/Home'
 import Blogs from './pages/Blog/Blogs'
 import Work from './pages/Work/Work'
