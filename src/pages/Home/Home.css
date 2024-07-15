@@ -7,6 +7,7 @@
 .profimg img{
     border-radius: 50%;
     height: 50%;
+    object-fit: cover;
 }
 .content{
     width: 50%;
@@ -86,8 +87,13 @@ height: fit-content;
     border-bottom: 2px solid rgb(182, 181, 181);
     padding: 1em 0;
 }
+.feature .feature-img{
+    width: 50%;
+}
 .feature .feature-img img{
     border-radius: 0.5em;
+    object-fit: contain;
+    width: 100%;
 }
 .feature-content{
     display: flex;
@@ -111,4 +117,15 @@ height: fit-content;
 .feature-content .feature-button-title p{
     margin: 0 2em;
     color: rgb(4, 100, 133);
+}
+@media(max-width: 800px){
+    .feature{
+        flex-direction: column;
+    }
+    .feature .feature-img{
+        width: 100%;
+    }
+    .feature .feature-img img{
+        width: 100%;
+    }
 }

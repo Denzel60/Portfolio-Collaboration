@@ -1,4 +1,7 @@
 import image from "./../../assets/person.jpg"
+import Dashboard from "./../../assets/Dashboard.png"
+import illustrations from "./../../assets/Illustrations.jpg"
+import topography from "./../../assets/Topography.jpeg"
 import "./Home.css"
 function Home() {
     const pdf_file = "http://localhost:5173/"
@@ -66,7 +69,7 @@ function Home() {
 
                 <div className="feature">
                     <div className="feature-img">
-                        <img src={image} alt="" />
+                        <img src={Dashboard} alt="" />
                     </div>
 
                     <div className="feature-content">
@@ -81,14 +84,14 @@ function Home() {
 
                 <div className="feature">
                     <div className="feature-img">
-                        <img src={image} alt="" />
+                        <img src={illustrations} alt="" />
                     </div>
 
                     <div className="feature-content">
                         <h2>Designing Dashboards</h2>
                         <div className="feature-button-title">
-                            <button>2020</button>
-                            <p>Dashboards</p>
+                            <button>2018</button>
+                            <p>Illustrations</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore doloribus molestiae molestias exercitationem modi fugiat harum fuga facilis quisquam veritatis.</p>
                     </div>
@@ -96,14 +99,14 @@ function Home() {
 
                 <div className="feature">
                     <div className="feature-img">
-                        <img src={image} alt="" />
+                        <img src={topography} alt="" />
                     </div>
 
                     <div className="feature-content">
                         <h2>Designing Dashboards</h2>
                         <div className="feature-button-title">
-                            <button>2020</button>
-                            <p>Dashboards</p>
+                            <button>2022</button>
+                            <p>Topography</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore doloribus molestiae molestias exercitationem modi fugiat harum fuga facilis quisquam veritatis.</p>
                     </div>
