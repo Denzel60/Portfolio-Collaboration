@@ -1,0 +1,67 @@
+.blogs{
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 2rem;
+}
+.blog h1{
+    font-size: 2.5rem;
+    margin-left: 15rem;
+}
+.blogs{
+    border-bottom:1px solid rgb(201, 198, 198);
+}
+.tech{
+    color: rgb(158, 156, 156);
+}
+
+@media(max-width: 56.3125em) {
+    .blogs{
+        margin-left: 5rem;
+        margin-right: 5rem;
+
+    }
+    .blog h1{
+        margin-left: 5rem;
+    }
+ 
+}
+
+@media(max-width: 33.8125em) {
+    .blogs{
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .blog h1{
+        margin-left: 1rem;
+    }
+ 
+}
+@media(max-width: 27.3125em) {
+    .blogs{
+        margin-left: .5rem;
+        margin-right: .5rem;
+
+    }
+    .blog h1{
+        margin-left: .5rem;
+    }
+    .blog h2{
+        font-size: 1.8rem;
+    }
+ 
+}
+@media(max-width: 33.8125em) {
+    .blogs{
+        margin-left: .2rem;
+        margin-right: .2rem;
+
+    }
+    .blog h1{
+        margin-left: .2rem;
+    }
+    .blog h2{
+        font-size: 1.5rem;
+    }
+ 
+}
