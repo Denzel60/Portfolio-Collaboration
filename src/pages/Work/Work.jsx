@@ -62,6 +62,7 @@ const WorkCard = (props) => {
 function Work() {
   return (
     <div className="cards-section">
+      <h1 className="work">Work</h1>
       {card.map((item, index) => (
         <WorkCard
           key={index}
