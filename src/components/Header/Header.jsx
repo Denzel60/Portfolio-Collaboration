@@ -11,6 +11,7 @@ function Header() {
     const handleMenu = () => setClick(!click)
 
     return (
+        // <header data-testid="header">
         <header>
             <div className="menu-navbar">
                 <Link to='/'><li onClick={() => { setMenu("Home") }}>Home{menu === "Home" ? <hr /> : <></>}</li></Link>

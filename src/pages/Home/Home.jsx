@@ -76,7 +76,7 @@ function Home() {
                         <h2>Designing Dashboards</h2>
                         <div className="feature-button-title">
                             <button>2020</button>
-                            <p>Dashboards</p>
+                            <p>Dashboard</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore doloribus molestiae molestias exercitationem modi fugiat harum fuga facilis quisquam veritatis.</p>
                     </div>
